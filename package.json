@@ -24,8 +24,8 @@
     "eject": "react-scripts eject",
     "lint:es": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint:es:fix": "npm run lint:es -- --fix",
-    "lint:css": "stylelint src",
-    "lint:css:fix": "npm run lint:css -- --fix",
+    "lint:scss": "stylelint src/assets/styles",
+    "lint:scss:fix": "npm run lint:scss -- --fix",
     "prepare": "husky install"
   },
   "browserslist": {

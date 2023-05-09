@@ -5,5 +5,22 @@
   "stylelint.useLocal": true,
 
   // Форматирование при сохранении файла
-  "stylelint.autoFixOnSave": true
+  "stylelint.autoFixOnSave": true,
+
+  "cSpell.language": "en,ru",
+  "cSpell.userWords": [
+    "backface",
+    "eslintignore",
+    "fontawesome",
+    "ical",
+    "nestjs",
+    "persistor",
+    "prettierrc",
+    "stylelint",
+    "stylelintignore",
+    "todohighlight",
+    "stylelintrc",
+    "Vite",
+    "websockets"
+  ]
 }
