@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:es": "eslint --ext .js,.jsx,.ts,.tsx src",
-    "lint:es:fix": "npm run lint:es -- --fix",
+    "lint": "tsc && eslint \"src/**/*.{js,ts,tsx}\" --quiet --fix",
     "lint:scss": "stylelint src/assets/styles",
     "lint:scss:fix": "npm run lint:scss -- --fix",
     "prepare": "husky install"

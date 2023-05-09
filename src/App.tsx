@@ -1,4 +1,5 @@
 function App() {
+  // Check husky
   return (
     <div className='App'>
       <h1>Клиентов</h1>
