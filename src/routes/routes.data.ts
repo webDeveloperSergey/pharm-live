@@ -1,6 +1,7 @@
 import Clients from '../screens/clients/Clients'
 import Employees from '../screens/employees/Employees'
 import Home from '../screens/home/Home'
+import Medications from '../screens/medications/Medications'
 
 import { IRoute } from '../types/types'
 
@@ -14,7 +15,11 @@ export const routes: IRoute[] = [
     component: Clients,
   },
   {
-    path: '/medications',
+    path: '/employees',
     component: Employees,
+  },
+  {
+    path: '/medications',
+    component: Medications,
   },
 ]
