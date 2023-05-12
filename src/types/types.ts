@@ -1,3 +1,4 @@
-export interface ITest {
-  test: string
+export interface IRoute {
+  path: string
+  component: React.FC
 }

@@ -1,22 +1,20 @@
-export const routes = [
+import Clients from '../screens/clients/Clients'
+import Employees from '../screens/employees/Employees'
+import Home from '../screens/home/Home'
+
+import { IRoute } from '../types/types'
+
+export const routes: IRoute[] = [
   {
     path: '/',
-    component: '',
-    isAuth: false,
+    component: Home,
   },
   {
-    path: '/auth',
-    component: '',
-    isAuth: false,
+    path: '/clients',
+    component: Clients,
   },
   {
-    path: '/profile',
-    component: '',
-    isAuth: true,
-  },
-  {
-    path: '/new-workout',
-    component: '',
-    isAuth: true,
+    path: '/medications',
+    component: Employees,
   },
 ]
