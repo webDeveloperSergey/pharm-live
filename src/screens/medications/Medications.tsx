@@ -1,5 +1,11 @@
+import Layout from '../../components/layout/Layout'
+
 const Medications = () => {
-  return <div>Medications</div>
+  return (
+    <Layout title='Лекарства' btn={true} btnTitle='Добавить лекарства'>
+      Medications
+    </Layout>
+  )
 }
 
 export default Medications

@@ -1,5 +1,11 @@
+import Layout from '../../components/layout/Layout'
+
 const Clients = () => {
-  return <div>Clients</div>
+  return (
+    <Layout title='Клиенты' btn={false}>
+      Clients
+    </Layout>
+  )
 }
 
 export default Clients

@@ -1,0 +1,67 @@
+@import '../../../assets/styles/variables';
+
+.sidebar {
+  width: 276px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  background-color: #fff;
+
+  &__logo {
+    padding: 30px 56px;
+    border-bottom: 3px solid $gray-light;
+  }
+
+  &__li {
+    display: flex;
+    align-items: center;
+    height: 57px;
+    position: relative;
+    z-index: 1;
+
+    & a {
+      font-size: 16px;
+      font-weight: 600;
+      padding-left: 70px;
+      &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 0;
+        left: 0;
+        top: 0;
+        background-color: $accent-light;
+        transition: all 0.6s ease;
+        z-index: -1;
+      }
+    }
+
+    &:hover {
+      & a {
+        color: $accent;
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__link {
+    color: $gray-dark;
+    &__active {
+      color: $accent;
+      &::before {
+        width: 100% !important;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 6px;
+        background-color: $accent;
+      }
+    }
+  }
+}

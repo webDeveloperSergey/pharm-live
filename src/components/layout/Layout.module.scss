@@ -1,0 +1,14 @@
+.layout {
+  &__wrap {
+    padding: 27px 107px 0 107px;
+    margin: 0 0 0 280px;
+    max-width: 1240px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+}

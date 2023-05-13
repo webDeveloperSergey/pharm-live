@@ -1,0 +1,48 @@
+@import '../../../assets/styles/variables';
+
+.btn {
+  display: flex;
+  padding: 0 32px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: $accent;
+  color: #fff;
+  border: 1px solid $accent;
+  transition: all 0.3s ease;
+
+  &__transparent {
+    background-color: $gray-light;
+    color: $accent;
+    border: 1px solid $accent;
+
+    &:hover {
+      background-color: $accent !important;
+      color: #fff !important;
+    }
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: $accent;
+    border: 1px solid $accent;
+  }
+
+  > svg {
+    margin-right: 12px;
+  }
+
+  > svg > path {
+    fill: #fff;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    > svg > path {
+      fill: $accent;
+    }
+  }
+}

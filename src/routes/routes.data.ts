@@ -9,17 +9,21 @@ export const routes: IRoute[] = [
   {
     path: '/',
     component: Home,
+    title: 'Главная',
   },
   {
     path: '/clients',
     component: Clients,
+    title: 'Клиенты',
   },
   {
     path: '/employees',
     component: Employees,
+    title: 'Сотрудники',
   },
   {
     path: '/medications',
     component: Medications,
+    title: 'Лекарства',
   },
 ]

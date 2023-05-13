@@ -1,9 +1,10 @@
+import Layout from '../../components/layout/Layout'
+
 const Home = () => {
   return (
-    <div>
-      <h1>Клиентов</h1>
-      <h2>Список клиентов </h2>
-    </div>
+    <Layout title='Главная' btn={false}>
+      Home
+    </Layout>
   )
 }
 
